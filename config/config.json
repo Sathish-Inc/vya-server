@@ -1,0 +1,77 @@
+{
+  "development": {
+    "server_config": {
+      "listen_host": "http://localhost",
+      "listen_port": "5000",
+      "ssl_enabled": false,
+      "log_dir": "../log/api-server"
+    },
+    "client_config": {
+      "listen_host": "http://localhost",
+      "listen_port": "4200",
+      "ssl_enabled": false
+    },
+    "db_conn_config": {
+      "pool_cache_size": 16,
+      "pool_max_size ": 64,
+      "doc_fetch_limit": 5000
+    },
+    "db_config": {
+      "db_user": "admin",
+      "db_pass": "admin",
+      "db_port": "5984",
+      "db_protocol": "http://",
+      "db_url": "127.0.0.1",
+      "doc_fetch_limit": "5984",
+
+      "central_db": "central-database"
+    },
+    "doc_type": {
+      "doc_type": "docType",
+      "doc_id": "docId",
+      "vessel_management": "INEVITO-EVITO-VESSEL-MANAGEMENT"
+    },
+    "smtp_config": {
+      "smtp_server": "",
+      "smtp_port": 587,
+      "smtp_ssl": false,
+      "smtp_sender_email": "",
+      "smtp_sender_password": ""
+    }
+  },
+  "production": {
+    "server_config": {
+      "listen_host": "",
+      "listen_port": "4000",
+      "ssl_enabled": false,
+      "log_dir": ".admin./log/api"
+    },
+    "client_config": {
+      "listen_host": "",
+      "listen_port": "",
+      "ssl_enabled": false
+    },
+    "db_conn_config": {
+      "pool_cache_size": 16,
+      "pool_max_size ": 64,
+      "doc_fetch_limit": 5000
+    },
+    "db_config": {
+      "db_user": "admin",
+      "db_pass": "admin",
+      "db_port": "5984",
+      "db_protocol": "http://",
+      "db_url": "127.0.0.1",
+      "doc_fetch_limit": "5984",
+
+      "my_db": "my-db"
+    },
+    "smtp_config": {
+      "smtp_server": "",
+      "smtp_port": 587,
+      "smtp_ssl": false,
+      "smtp_sender_email": "",
+      "smtp_sender_password": ""
+    }
+  }
+}
