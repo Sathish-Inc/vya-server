@@ -17,11 +17,11 @@
       "doc_fetch_limit": 5000
     },
     "db_config": {
-      "db_user": "admin",
+      "db_user": "priya",
       "db_pass": "admin",
       "db_port": "5984",
       "db_protocol": "http://",
-      "db_url": "127.0.0.1",
+      "db_url": "barani.vyasaka.in",
       "doc_fetch_limit": "5984",
 
       "central_db": "central-database"
@@ -57,14 +57,14 @@
       "doc_fetch_limit": 5000
     },
     "db_config": {
-      "db_user": "admin",
+      "db_user": "priya",
       "db_pass": "admin",
       "db_port": "5984",
       "db_protocol": "http://",
-      "db_url": "127.0.0.1",
+      "db_url": "barani.vyasaka.in",
       "doc_fetch_limit": "5984",
 
-      "my_db": "my-db"
+      "central_db": "central-database"
     },
     "smtp_config": {
       "smtp_server": "",
