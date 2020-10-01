@@ -11,6 +11,7 @@ import bodyParser from 'body-parser';
 // ********************* Routes ************************** //
 import timestamp from './midlewares/timestamps.js';
 import vessel from './routes/vessel/vessel';
+import quest from './routes/quest/quest';
 // ********************* Routes ************************** //
 
 // ********************* CouchDb Instance ************************** //
@@ -44,6 +45,9 @@ const config = global.gConfig;
 
 app.group('/api', (router) => {
   router.use('/vessel', vessel);
+});
+app.group('/api', (router) => {
+  router.use('/question-management', quest);
 });
 
 // const passportOpts = {

@@ -29,7 +29,8 @@
     "doc_type": {
       "doc_type": "docType",
       "doc_id": "docId",
-      "vessel_management": "INEVITO-EVITO-VESSEL-MANAGEMENT"
+      "vessel_management": "INEVITO-EVITO-VESSEL-MANAGEMENT",
+      "question_management": "INEVITO-EVITO-QUESTION-MANAGEMENT"
     },
     "smtp_config": {
       "smtp_server": "",
